@@ -1,18 +1,31 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.nucle.intellijquasarlivetemplates</id>
-    <name>intellij-quasar-live-templates</name>
-    <vendor>nucle</vendor>
+    <id>at.knusperleicht.quasar</id>
+    <name>Quasar</name>
+    <version>1.0.0</version>
+
+    <vendor
+            url="https://plugins.jetbrains.com/knusperleicht"
+            email="contact@example.com">Knusperleicht Development
+    </vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.nucle.intellijquasarlivetemplates.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.nucle.intellijquasarlivetemplates.services.MyProjectService"/>
-    </extensions>
+    <description>
+        <![CDATA[
+            Provides support for <a href="https://quasar.dev/">Quasar Framework</a>.
+            <p>Includes support for:
+            <ul>
+              <li>code completion</li>
+            </ul>
+           </p>
+     ]]>
+    </description>
 
-    <applicationListeners>
-        <listener class="com.github.nucle.intellijquasarlivetemplates.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <change-notes>Initial release of the plugin.</change-notes>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <defaultLiveTemplates file="/liveTemplates/Quasar.xml"/>
+        <liveTemplateContext implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
+    </extensions>
 </idea-plugin>

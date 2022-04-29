@@ -1,0 +1,9 @@
+<templateSet group="Quasar">
+  <template name="qlayout" value="&lt;q-layout view=&quot;$VIEW$&quot; $CONTAINER$&gt;$END$&lt;/q-layout&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="&quot;hHr LpR lFf&quot;" alwaysStopAt="true" />
+    <variable name="CONTAINER" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_TEMPLATE" value="true" />
+    </context>
+  </template>
+</templateSet>
