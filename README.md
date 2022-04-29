@@ -1,4 +1,4 @@
-# intellij-quasar-live-templates
+# intellij-quasar
 
 ![Build](https://github.com/knusperleicht/intellij-quasar-live-templates/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)

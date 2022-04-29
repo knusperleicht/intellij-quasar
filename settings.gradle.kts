@@ -1,1 +1,1 @@
-rootProject.name = "intellij-quasar-live-templates"
+rootProject.name = "intellij-quasar"
