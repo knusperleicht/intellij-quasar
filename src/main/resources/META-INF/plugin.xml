@@ -1,12 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
-    <name>Quasar</name>
+    <name>Quasar Tools</name>
     <version>1.0.0</version>
 
     <vendor
             url="https://plugins.jetbrains.com/knusperleicht"
-            email="contact@example.com">Knusperleicht Development
+            email="christian.behon@knusperleicht.at">Knusperleicht Development
     </vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -16,7 +16,7 @@
             Provides support for <a href="https://quasar.dev/">Quasar Framework</a>.
             <p>Includes support for:
             <ul>
-              <li>code completion</li>
+              <li>live templates</li>
             </ul>
            </p>
      ]]>
