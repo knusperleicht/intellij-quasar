@@ -22,3 +22,13 @@
   - QHeader
   - QDrawer
   - QCard
+  - QImg
+  - QMarkupTable
+  - QIcon
+  - QChatMessage
+  - QChip
+  - QColor
+  - QEditor
+  - QInfiniteScroll
+  - QExpansionItem
+  - QDialog

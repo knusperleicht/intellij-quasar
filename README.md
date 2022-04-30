@@ -1,13 +1,13 @@
 # intellij-quasar
 <!-- Plugin description -->
-With the [Quasar Framework](https://quasar.dev/), you can effortlessly build high-performance & high-quality Vue.js 3 user interfaces in record time.
+With the [Quasar Framework](https://quasar.dev/), you can effortlessly build high-performance & high-quality Vue.js 3 user interfaces.
 But sometimes, it is challenging to remember all the basic syntax of all the components. Therefore the IntelliJ quasar plugin is here
 to support you with predefined live templates and make your life easier.
 <!-- Plugin description end -->
 
 ![Build](https://github.com/knusperleicht/intellij-quasar/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/at.knusperleicht.quasar)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/at.knusperleicht.quasar)
 
 ## Installation
 

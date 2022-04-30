@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
     <name>Quasar Tools</name>
-    <version>0.0.3-alpha1</version>
+    <version>0.0.3-alpha2</version>
 
     <vendor
             url="https://plugins.jetbrains.com/knusperleicht"
