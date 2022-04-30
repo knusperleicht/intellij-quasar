@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class QuasarContext extends TemplateContextType {
     protected QuasarContext() {
-        super("VUE_TEMPLATE", "QUASAR TEMPLATES");
+        super("Vue", "QUASAR TEMPLATES");
     }
 
     @Override

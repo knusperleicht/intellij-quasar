@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
     <name>Quasar Tools</name>
-    <version>1.0.0</version>
+    <version>0.0.3-alpha1</version>
 
     <vendor
             url="https://plugins.jetbrains.com/knusperleicht"
@@ -10,18 +10,7 @@
     </vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
-    <description>
-        <![CDATA[
-            Provides support for <a href="https://quasar.dev/">Quasar Framework</a>.
-            <p>Includes support for:
-            <ul>
-              <li>live templates</li>
-            </ul>
-           </p>
-     ]]>
-    </description>
-
+    ß
     <change-notes>Initial release of the plugin.</change-notes>
 
     <extensions defaultExtensionNs="com.intellij">

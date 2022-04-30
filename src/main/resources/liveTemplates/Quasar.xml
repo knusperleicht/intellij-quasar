@@ -3,7 +3,197 @@
     <variable name="VIEW" expression="" defaultValue="&quot;hHr LpR lFf&quot;" alwaysStopAt="true" />
     <variable name="CONTAINER" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
     <context>
-      <option name="VUE_TEMPLATE" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qcardsection" value="&lt;q-card-section&gt;&#10;$LOREM$        &#10;&lt;/q-card-section&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="LOREM" expression="" defaultValue="&quot;Lorem ipsum dolor sit amet&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qcardactions" value="&lt;q-card-actions $VERTICAL$ align=&quot;$center$&quot;&gt;&#10;        &lt;q-btn flat&gt;$ACTION_1$&lt;/q-btn&gt;&#10;        &lt;q-btn flat&gt;$ACTION_2$&lt;/q-btn&gt;&#10;&lt;/q-card-actions&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VERTICAL" expression="" defaultValue="&quot;vertical&quot;" alwaysStopAt="true" />
+    <variable name="center" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <variable name="ACTION_1" expression="" defaultValue="&quot;Action One&quot;" alwaysStopAt="true" />
+    <variable name="ACTION_2" expression="" defaultValue="&quot;Action Two&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qseparator" value="&lt;q-separator $DARK$ /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="DARK" expression="" defaultValue="&quot;dark&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qcardimg" value="&lt;q-card class=&quot;my-card&quot;&gt;&#10;    &lt;img src=&quot;$IMG$&quot;&gt;&#10;&#10;    &lt;q-card-section&gt;&#10;        &lt;div class=&quot;text-h6&quot;&gt;$TITEL$&lt;/div&gt;&#10;        &lt;div class=&quot;text-subtitle2&quot;&gt;$AUTHOR$&lt;/div&gt;&#10;     &lt;/q-card-section&gt;&#10;&#10;     &lt;q-card-section class=&quot;q-pt-none&quot;&gt;&#10;        $LOREM$&#10;     &lt;/q-card-section&gt;&#10; &lt;/q-card&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="IMG" expression="" defaultValue="&quot;https://cdn.quasar.dev/img/mountains.jpg&quot;" alwaysStopAt="true" />
+    <variable name="TITEL" expression="" defaultValue="&quot;Our Changing Planet&quot;" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="" defaultValue="&quot;by John Do&quot;" alwaysStopAt="true" />
+    <variable name="LOREM" expression="" defaultValue="&quot;Lorem ipsum dolor sit amet&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qfooter" value="&lt;q-footer v-model=&quot;$V_MODEL$&quot; $REVEAL$ $ELEVATED$ $BORDERED$&gt;$END$&lt;/q-footer&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;footerState&quot;" alwaysStopAt="true" />
+    <variable name="REVEAL" expression="" defaultValue="&quot;reveal&quot;" alwaysStopAt="true" />
+    <variable name="ELEVATED" expression="" defaultValue="&quot;elevated&quot;" alwaysStopAt="true" />
+    <variable name="BORDERED" expression="" defaultValue="&quot;bordered&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qheader" value="&lt;q-header v-model=&quot;$V_MODEL$&quot; $REVEAL$ $ELEVATED$ $BORDERED$&gt;$END$&lt;/q-header&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;headerState&quot;" alwaysStopAt="true" />
+    <variable name="REVEAL" expression="" defaultValue="&quot;reveal&quot;" alwaysStopAt="true" />
+    <variable name="ELEVATED" expression="" defaultValue="&quot;elevated&quot;" alwaysStopAt="true" />
+    <variable name="BORDERED" expression="" defaultValue="&quot;bordered&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qdrawer" value="&lt;q-drawer&#10;   side=&quot;$SIDE$&quot;&#10;   v-model=&quot;$V_MODEL$&quot;&#10;   :width=&quot;$WIDTH$&quot;&#10;   :breakpoint=&quot;$BREAKPOINT$&quot;&#10;   $ELEVEATED$&gt;&#10;   $END$&#10;&lt;/q-drawer&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="SIDE" expression="" defaultValue="&quot;left&quot;" alwaysStopAt="true" />
+    <variable name="V_MODEL" expression="" defaultValue="&quot;drawerState&quot;" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <variable name="BREAKPOINT" expression="" defaultValue="&quot;500&quot;" alwaysStopAt="true" />
+    <variable name="ELEVEATED" expression="" defaultValue="&quot;elevated&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qpagecontainer" value="&lt;q-page-container&gt;$END$&lt;/q-page-container&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qpage" value="&lt;q-page :style-fn=&quot;$FUNC$&quot; $PADDING$&gt;$END$&lt;/q-page&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC" expression="" defaultValue="&quot;myTweak&quot;" alwaysStopAt="true" />
+    <variable name="PADDING" expression="" defaultValue="&quot;padding&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qpagesticky" value="&lt;q-page-sticky position=&quot;$TOP_RIGHT$&quot; :offset=&quot;[$OFFSET_LEFT$,$OFFSET_RIGHT$]&quot; $EXPAND$&gt;&quot;,&#10;$END$&#10;&lt;/q-page-sticky&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="TOP_RIGHT" expression="" defaultValue="&quot;top-right&quot;" alwaysStopAt="true" />
+    <variable name="OFFSET_LEFT" expression="" defaultValue="&quot;18&quot;" alwaysStopAt="true" />
+    <variable name="OFFSET_RIGHT" expression="" defaultValue="&quot;18&quot;" alwaysStopAt="true" />
+    <variable name="EXPAND" expression="" defaultValue="&quot;expand&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qpagescroller" value="&lt;q-page-scroller position=&quot;$BOTTOM_RIGHT$&quot; :scroll-offset=&quot;$SCROLL_OFFSET$&quot; :offset=&quot;[$OFFSET_LEFT$, $OFFSET_RIGHT$]&quot;&gt;&#10;&#10;&lt;/q-page-scroller&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="BOTTOM_RIGHT" expression="" defaultValue="&quot;bottom-right&quot;" alwaysStopAt="true" />
+    <variable name="SCROLL_OFFSET" expression="" defaultValue="&quot;150&quot;" alwaysStopAt="true" />
+    <variable name="OFFSET_LEFT" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="OFFSET_RIGHT" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qfab" value="&lt;q-fab color=&quot;$COLOR$&quot; icon=&quot;$ICON$&quot; direction=&quot;$DIRECTION$&quot;&gt;&#10;$END$&#10;&lt;/q-fab&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOR" expression="" defaultValue="&quot;purple&quot;" alwaysStopAt="true" />
+    <variable name="ICON" expression="" defaultValue="&quot;keyboard_arrow_up&quot;" alwaysStopAt="true" />
+    <variable name="DIRECTION" expression="" defaultValue="&quot;up&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qfabaction" value=" &lt;q-fab-action color=&quot;$PRIMARY$&quot; @click=&quot;$CLICK$&quot; icon=&quot;$ICON$&quot; /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="PRIMARY" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <variable name="CLICK" expression="" defaultValue="&quot;onClick&quot;" alwaysStopAt="true" />
+    <variable name="ICON" expression="" defaultValue="&quot;mail&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qavatar" value="&lt;q-avatar size=&quot;$SIZE$&quot; color=&quot;$COLOR$&quot; text-color=&quot;$TEXT_COLOR$&quot; icon=&quot;$ICON$&quot; /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="SIZE" expression="" defaultValue="&quot;md&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;red&quot;" alwaysStopAt="true" />
+    <variable name="TEXT_COLOR" expression="" defaultValue="&quot;white&quot;" alwaysStopAt="true" />
+    <variable name="ICON" expression="" defaultValue="&quot;directions&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbadge" value="&lt;q-badge color=&quot;$COLOR$&quot; text-color=&quot;$TEXT_COLOR$&quot; label=&quot;$LABEL$&quot; /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOR" expression="" defaultValue="&quot;orange&quot;" alwaysStopAt="true" />
+    <variable name="TEXT_COLOR" expression="" defaultValue="&quot;black&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;v1.0.0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbanner" value="&lt;q-banner class=&quot;$CSS$&quot;&gt;&#10;$TEXT$&#10;    &lt;template v-slot:action&gt;&#10;        &lt;q-btn flat color=&quot;$COLOR$&quot; label=&quot;$LABEL_ONE$&quot; /&gt;&#10;        &lt;q-btn flat color=&quot;$COLOR$&quot; label=&quot;$LABEL_TWO$&quot; /&gt;&#10;    &lt;/template&gt;&#10;&lt;/q-banner&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="CSS" expression="" defaultValue="&quot;bg-primary text-white&quot;" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="&quot;Unfortunately, the credit card did not go through, please try again.&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;white&quot;" alwaysStopAt="true" />
+    <variable name="LABEL_ONE" expression="" defaultValue="&quot;Dismiss&quot;" alwaysStopAt="true" />
+    <variable name="LABEL_TWO" expression="" defaultValue="&quot;Update Credit Card&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbar" value="&lt;q-bar $DARK$ class=&quot;$CLASS$&quot;&gt;&#10;    &lt;q-btn dense flat round icon=&quot;lens&quot; size=&quot;8.5px&quot; color=&quot;red&quot; /&gt;&#10;    &lt;q-btn dense flat round icon=&quot;lens&quot; size=&quot;8.5px&quot; color=&quot;yellow&quot; /&gt;&#10;    &lt;q-btn dense flat round icon=&quot;lens&quot; size=&quot;8.5px&quot; color=&quot;green&quot; /&gt;&#10;    &lt;div class=&quot;col text-center text-weight-bold&quot;&gt;&#10;        $END$&#10;    &lt;/div&gt;&#10;&lt;/q-bar&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="DARK" expression="" defaultValue="&quot;dark&quot;" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="&quot;bg-primary text-white&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbreadcrumbs" value="&lt;q-breadcrumbs&gt;&#10;      &lt;q-breadcrumbs-el label=&quot;$LABEL$&quot; /&gt;&#10;&lt;/q-breadcrumbs&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="&quot;Home&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbreadcrumbsel" value="&lt;q-breadcrumbs-el label=&quot;$LABEL$&quot; /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="&quot;Breadcrumbs&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbtn" value="&lt;q-btn $FLAT$ size=&quot;$SIZE$&quot; color=&quot;$COLOR$&quot; icon=&quot;$ICON$&quot; label=&quot;$LABEL$&quot; @click=&quot;$CLICK$&quot; /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="FLAT" expression="" defaultValue="&quot;flat&quot;" alwaysStopAt="true" />
+    <variable name="SIZE" expression="" defaultValue="&quot;md&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <variable name="ICON" expression="" defaultValue="&quot;check&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;OK&quot;" alwaysStopAt="true" />
+    <variable name="CLICK" expression="" defaultValue="&quot;onClick&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbtngroup" value="  &lt;q-btn-group $STYLE$&gt;&#10;      &lt;q-btn color=&quot;$COLOR_ONE$&quot; icon=&quot;$ICON_ONE$&quot; label=&quot;$LABEL_ONE$&quot;/&gt;&#10;      &lt;q-btn color=&quot;$COLOR_TWO$&quot; icon=&quot;$ICON_TWO$&quot; label=&quot;$LABLE_TWO$&quot;/&gt;&#10; &lt;/q-btn-group&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="STYLE" expression="" defaultValue="&quot;flat&quot;" alwaysStopAt="true" />
+    <variable name="COLOR_ONE" expression="" defaultValue="&quot;accent&quot;" alwaysStopAt="true" />
+    <variable name="ICON_ONE" expression="" defaultValue="&quot;timeline&quot;" alwaysStopAt="true" />
+    <variable name="LABEL_ONE" expression="" defaultValue="&quot;Label One&quot;" alwaysStopAt="true" />
+    <variable name="COLOR_TWO" expression="" defaultValue="&quot;accent&quot;" alwaysStopAt="true" />
+    <variable name="ICON_TWO" expression="" defaultValue="&quot;visibility&quot;" alwaysStopAt="true" />
+    <variable name="LABLE_TWO" expression="" defaultValue="&quot;label_two&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qbtndropdown" value="&lt;q-btn-dropdown color=&quot;$COLOR$&quot; label=&quot;$LABEL$&quot;&gt;&#10;    &lt;q-list&gt;&#10;        &lt;q-item clickable v-close-popup @click=&quot;$CLICK$&quot;&gt;&#10;            &lt;q-item-section&gt;&#10;                &lt;q-item-label&gt;$END$&lt;/q-item-label&gt;&#10;            &lt;/q-item-section&gt;&#10;        &lt;/q-item&gt;&#10;    &lt;/q-list&gt;&#10;&lt;/q-btn-dropdown&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOR" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Dropdown Button&quot;" alwaysStopAt="true" />
+    <variable name="CLICK" expression="" defaultValue="&quot;onItemClick&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qcard" value="&lt;q-card $FLAT$ $BORDERED$ class=&quot;my-card&quot;&gt;&#10;    &lt;q-card-section&gt;&#10;        &lt;div class=&quot;text-h6&quot;&gt;$TITLE$&lt;/div&gt;&#10;    &lt;/q-card-section&gt;&#10;    &#10;    &lt;q-separator inset /&gt;&#10;    &#10;    &lt;q-card-section&gt;&#10;        $TEXT$&#10;    &lt;/q-card-section&gt;&#10;&lt;/q-card&gt;&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="FLAT" expression="" defaultValue="&quot;flat&quot;" alwaysStopAt="true" />
+    <variable name="BORDERED" expression="" defaultValue="&quot;bordered&quot;" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="&quot;Our Card&quot;" alwaysStopAt="true" />
+    <variable name="TEXT" expression="" defaultValue="&quot;Lorem ipsum dolor sit amet&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
     </context>
   </template>
 </templateSet>
