@@ -284,4 +284,160 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="qform" value="&lt;q-form&#10;    @submit=&quot;$ON_SUBMIT$&quot;&#10;    @reset=&quot;$ON_RESET$&quot;&#10;    class=&quot;$STYLE$&quot;&gt;&#10;    $END$&#10;    &lt;div&gt;&#10;        &lt;q-btn label=&quot;$SUBMIT_LABEL$&quot; type=&quot;submit&quot; color=&quot;$SUBMIT_COLOR$&quot;/&gt;&#10;        &lt;q-btn label=&quot;$RESET_LABEL$&quot; type=&quot;reset&quot; color=&quot;$RESET_COLOR$&quot; flat class=&quot;$RESET_STYLE$&quot; /&gt;&#10;    &lt;/div&gt;&#10;&lt;/q-form&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ON_SUBMIT" expression="" defaultValue="&quot;onSubmit&quot;" alwaysStopAt="true" />
+    <variable name="ON_RESET" expression="" defaultValue="&quot;onReset&quot;" alwaysStopAt="true" />
+    <variable name="STYLE" expression="" defaultValue="&quot;q-gutter-md&quot;" alwaysStopAt="true" />
+    <variable name="SUBMIT_LABEL" expression="" defaultValue="&quot;Submit&quot;" alwaysStopAt="true" />
+    <variable name="SUBMIT_COLOR" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <variable name="RESET_LABEL" expression="" defaultValue="&quot;Reset&quot;" alwaysStopAt="true" />
+    <variable name="RESET_COLOR" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <variable name="RESET_STYLE" expression="" defaultValue="&quot;q-ml-sm&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qfile" value="&lt;q-file&#10;    v-model=&quot;$V_MODEL$&quot;&#10;    label=&quot;$LABEL$&quot;&#10;    $FILLED$&#10;    $MULTIPLE$&#10;    $APPEND$&#10;    style=&quot;$STYLE$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;files&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Pick files&quot;" alwaysStopAt="true" />
+    <variable name="FILLED" expression="" defaultValue="&quot;filled&quot;" alwaysStopAt="true" />
+    <variable name="MULTIPLE" expression="" defaultValue="&quot;multiple&quot;" alwaysStopAt="true" />
+    <variable name="APPEND" expression="" defaultValue="&quot;append&quot;" alwaysStopAt="true" />
+    <variable name="STYLE" expression="" defaultValue="&quot;max-width: 300px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qselect" value="&lt;q-select &#10;    v-model=&quot;$V_MODEL$&quot; &#10;    :options=&quot;$OPTIONS$&quot; &#10;    label=&quot;$LABEL$&quot;&#10;    $FILLED$&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;model&quot;" alwaysStopAt="true" />
+    <variable name="OPTIONS" expression="" defaultValue="&quot;options&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Standard&quot;" alwaysStopAt="true" />
+    <variable name="FILLED" expression="" defaultValue="&quot;filled&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qinput" value="&lt;q-input&#10;    v-model=&quot;$V_MODEL$&quot; &#10;    label=&quot;$LABEL$&quot;  &#10;    $FILLED$ &#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Label&quot;" alwaysStopAt="true" />
+    <variable name="FILLED" expression="" defaultValue="&quot;filled&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qradio" value="&lt;q-radio &#10;    v-model=&quot;$V_MODEL$&quot; &#10;    val=&quot;$VALUE$&quot; &#10;    label=&quot;$LABEL$&quot; &#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;shape&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;rectangle&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Rectangle&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qcheckbox" value="&lt;q-checkbox &#10;    v-model=&quot;$V_MODEL$&quot; &#10;    label=&quot;$LABEL$&quot; &#10;    color=&quot;$COLOR$&quot; &#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;teal&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Teal&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;teal&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qtoggle" value="   &lt;q-toggle&#10;      v-model=&quot;$V_MODEL$&quot;&#10;      label=&quot;$LABEL$&quot;&#10;      color=&quot;$COLOR$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;pinkModel&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;pink&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qoptiongroup" value="&lt;q-option-group&#10;    v-model=&quot;$V_MODEL$&quot;&#10;    :options=&quot;$OPTIONS$&quot;&#10;    color=&quot;$COLOR$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;group&quot;" alwaysStopAt="true" />
+    <variable name="OPTIONS" expression="" defaultValue="&quot;options&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qslider" value="&lt;q-slider &#10;    v-model=&quot;$V_MODEL$&quot; &#10;    :min=&quot;$MIN$&quot; &#10;    :max=&quot;$MAX$&quot; &#10;    color=&quot;$COLOR$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;standard&quot;" alwaysStopAt="true" />
+    <variable name="MIN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="MAX" expression="" defaultValue="&quot;50&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;green&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qrange" value="&lt;q-range&#10;    v-model=&quot;$V_MODEL$&quot;&#10;    :min=&quot;$MIN$&quot;&#10;    :max=&quot;$MAX$&quot;&#10;    color=&quot;$COLOR$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;standard&quot;" alwaysStopAt="true" />
+    <variable name="MIN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="MAX" expression="" defaultValue="&quot;50&quot;" alwaysStopAt="true" />
+    <variable name="COLOR" expression="" defaultValue="&quot;green&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qtime" value="&lt;q-time&#10;    v-model=&quot;$V_MODEL$&quot;&#10;    $SECONDS$&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;timeWithSeconds&quot;" alwaysStopAt="true" />
+    <variable name="SECONDS" expression="" defaultValue="&quot;with-seconds&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qdate" value="&lt;q-date&#10;    v-model=&quot;$V_MODEL$&quot;&#10;    $MINIMAL$&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;date&quot;" alwaysStopAt="true" />
+    <variable name="MINIMAL" expression="" defaultValue="&quot;minimal&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qtree" value="&lt;q-tree&#10;    :nodes=&quot;$NODES$&quot;&#10;    $ACCORDION$&#10;    node-key=&quot;$KEY$&quot;&#10;    v-model:expanded=&quot;$V_MODEL$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="NODES" expression="" defaultValue="&quot;simple&quot;" alwaysStopAt="true" />
+    <variable name="ACCORDION" expression="" defaultValue="&quot;accordion&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
+    <variable name="V_MODEL" expression="" defaultValue="&quot;expanded&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qvideo" value="&lt;q-video src=&quot;$SRC$&quot;/&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="SRC" expression="" defaultValue="&quot;https://www.youtube.com/embed/k3_tw44QsZQ?rel=0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="quploader" value="&lt;q-uploader&#10;    url=&quot;$SRC$&quot;&#10;    label=&quot;$LABEL$&quot;&#10;    $MULTIPLE$&#10;    style=&quot;$STYLE$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="SRC" expression="" defaultValue="&quot;http://localhost:4444/upload&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;Individual upload&quot;" alwaysStopAt="true" />
+    <variable name="MULTIPLE" expression="" defaultValue="&quot;multiple&quot;" alwaysStopAt="true" />
+    <variable name="STYLE" expression="" defaultValue="&quot;max-width: 300px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qtooltip" value="&lt;q-tooltip :delay=&quot;$DELAY$&quot; &gt;&#10;$CONTENT$&#10;&lt;/q-tooltip&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="DELAY" expression="" defaultValue="&quot;1000&quot;" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="&quot;Some text as content of Tooltip&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qtimelineentry" value="&lt;q-timeline-entry&#10;    title=&quot;$TITLE$&quot;&#10;    subtitle=&quot;$SUBTITLE$&quot;&#10;    avatar=&quot;$AVATAR$&quot;&#10;    :body=&quot;$BODY$&quot;&#10;    /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="&quot;Event Title&quot;" alwaysStopAt="true" />
+    <variable name="SUBTITLE" expression="" defaultValue="&quot;February 22, 1986&quot;" alwaysStopAt="true" />
+    <variable name="AVATAR" expression="" defaultValue="&quot;https://cdn.quasar.dev/img/avatar3.jpg&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="&quot;body&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qtimeline" value="&lt;q-timeline color=&quot;$COLOR$&quot;&gt;&#10;$END$&#10;&lt;/q-timeline&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="COLOR" expression="" defaultValue="&quot;secondary&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="qstepper" value="    &lt;q-stepper&#10;      v-model=&quot;step&quot;&#10;      ref=&quot;stepper&quot;&#10;      color=&quot;primary&quot;&#10;      animated&#10;    &gt;&#10;      &lt;q-step&#10;        :name=&quot;1&quot;&#10;        title=&quot;Select campaign settings&quot;&#10;        icon=&quot;settings&quot;&#10;        :done=&quot;step &gt; 1&quot;&#10;      &gt;&#10;        For each ad campaign that you create, you can control how much you're willing to&#10;        spend on clicks and conversions, which networks and geographical locations you want&#10;        your ads to show on, and more.&#10;      &lt;/q-step&gt;&#10;&#10;      &lt;q-step&#10;        :name=&quot;2&quot;&#10;        title=&quot;Create an ad group&quot;&#10;        caption=&quot;Optional&quot;&#10;        icon=&quot;create_new_folder&quot;&#10;        :done=&quot;step &gt; 2&quot;&#10;      &gt;&#10;        An ad group contains one or more ads which target a shared set of keywords.&#10;      &lt;/q-step&gt;&#10;&#10;      &lt;q-step&#10;        :name=&quot;3&quot;&#10;        title=&quot;Ad template&quot;&#10;        icon=&quot;assignment&quot;&#10;        disable&#10;      &gt;&#10;        This step won't show up because it is disabled.&#10;      &lt;/q-step&gt;&#10;&#10;      &lt;q-step&#10;        :name=&quot;4&quot;&#10;        title=&quot;Create an ad&quot;&#10;        icon=&quot;add_comment&quot;&#10;      &gt;&#10;        Try out different ad text to see what brings in the most customers, and learn how to&#10;        enhance your ads using features like ad extensions. If you run into any problems with&#10;        your ads, find out how to tell if they're running and how to resolve approval issues.&#10;      &lt;/q-step&gt;&#10;&#10;      &lt;template v-slot:navigation&gt;&#10;        &lt;q-stepper-navigation&gt;&#10;          &lt;q-btn @click=&quot;$refs.stepper.next()&quot; color=&quot;primary&quot; :label=&quot;step === 4 ? 'Finish' : 'Continue'&quot; /&gt;&#10;          &lt;q-btn v-if=&quot;step &gt; 1&quot; flat color=&quot;primary&quot; @click=&quot;$refs.stepper.previous()&quot; label=&quot;Back&quot; class=&quot;q-ml-sm&quot; /&gt;&#10;        &lt;/q-stepper-navigation&gt;&#10;      &lt;/template&gt;&#10;    &lt;/q-stepper&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>

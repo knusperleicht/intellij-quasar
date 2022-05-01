@@ -7,28 +7,10 @@
   - QBtn
     - QBtnGroup
     - QBtnDropdown
-  - QAvatar
-  - QLayout
-  - QCard
-  - QSeparator
-  - QBreadcrumbs
-  - QBar
-  - QBanner
-  - QPageScroller
-  - QPageSticky
-  - QPage
-  - QPageContainer
-  - QFooter
-  - QHeader
-  - QDrawer
-  - QCard
-  - QImg
-  - QMarkupTable
-  - QIcon
-  - QChatMessage
-  - QChip
-  - QColor
-  - QEditor
-  - QInfiniteScroll
-  - QExpansionItem
-  - QDialog
+  - QAvatar, QLayout, QCard, QSeparator, QBreadcrumbs, QBar
+  - QBanner, QPageScroller, QPageSticky, QPage, QPageContainer
+  - QFooter, QHeader, QDrawer, QCard, QImg, QMarkupTable, QIcon
+  - QChatMessage, QChip, QColor, QEditor, QInfiniteScroll, QExpansionItem
+  - QDialog, QForm, QInput, QToggle, QFilePicker, QRadio, QCheckbox
+  - QSelect, QSlider, QRange, QTimePicker, QDatePicker, QUploader
+  - QVideo, QTree, QTooltip

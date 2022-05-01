@@ -17,7 +17,6 @@ qbadge + [tab] => <q-badge color="orange" text-color="black" label="v1.0.0" />
 
 <img src="https://user-images.githubusercontent.com/2041897/166143563-df66397f-66f9-434d-9b7c-4e6ee2b8d281.gif" width="80%" height="50%"/>
 
-
 ## Installation
 
 - Using IDE built-in plugin system:
