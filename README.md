@@ -9,6 +9,15 @@ to support you with predefined live templates and make your life easier.
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/at.knusperleicht.quasar)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/at.knusperleicht.quasar)
 
+``` html
+qlayout + [tab] => <q-layout view="hHr LpR lFf"></q-layout>
+qbadge + [tab] => <q-badge color="orange" text-color="black" label="v1.0.0" />
+```
+
+
+<img src="https://user-images.githubusercontent.com/2041897/166143563-df66397f-66f9-434d-9b7c-4e6ee2b8d281.gif" width="80%" height="50%"/>
+
+
 ## Installation
 
 - Using IDE built-in plugin system:
@@ -20,6 +29,8 @@ to support you with predefined live templates and make your life easier.
 
   Download the [latest release](https://github.com/knusperleicht/intellij-quasar/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+
+## Adding new live templates
 
 
 ---
