@@ -36,3 +36,7 @@ qbadge + [tab] => <q-badge color="orange" text-color="black" label="v1.0.0" />
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
+
+Plugin inspired by [VSCode Quasar Snippets][vscode-quasar-snippets].
+
+[vscode-quasar-snippets]: https://github.com/Abdelaziz18003/vscode-quasar-snippets

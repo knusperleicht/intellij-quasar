@@ -2,15 +2,15 @@
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
     <name>Quasar Tools</name>
-    <version>0.0.3-alpha3</version>
+    <version>0.0.3-alpha4</version>
 
     <vendor
-            url="https://plugins.jetbrains.com/knusperleicht"
+            url="https://www.knusperleicht.at"
             email="christian.behon@knusperleicht.at">Knusperleicht Development
     </vendor>
 
     <depends>com.intellij.modules.platform</depends>
-    ß
+
     <change-notes>Initial release of the plugin.</change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
