@@ -13,4 +13,5 @@
   - QChatMessage, QChip, QColor, QEditor, QInfiniteScroll, QExpansionItem
   - QDialog, QForm, QInput, QToggle, QFilePicker, QRadio, QCheckbox
   - QSelect, QSlider, QRange, QTimePicker, QDatePicker, QUploader
-  - QVideo, QTree, QTooltip
+  - QVideo, QTree, QTooltip, QSplitter, QSpace, QStepper
+  - QVirtualScroll, QSpinners, QSkeleton
