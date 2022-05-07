@@ -29,6 +29,7 @@ qbadge + [tab] => <q-badge color="orange" text-color="black" label="v1.0.0" />
   Download the [latest release](https://github.com/knusperleicht/intellij-quasar/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
+<iframe frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/19084"></iframe>
 ## Adding new live templates
 
 

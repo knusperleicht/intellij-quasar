@@ -14,4 +14,7 @@
   - QDialog, QForm, QInput, QToggle, QFilePicker, QRadio, QCheckbox
   - QSelect, QSlider, QRange, QTimePicker, QDatePicker, QUploader
   - QVideo, QTree, QTooltip, QSplitter, QSpace, QStepper
-  - QVirtualScroll, QSpinners, QSkeleton
+  - QVirtualScroll, QSpinners, QSkeleton, QTabs, QTable, QSlideItem
+  - QParallax, QPagination, QResizeObserver, QNoSSR, QLinearProgress
+  - QKnob, QIntersection, QInnerLoading, QBtnToggle, QCarousel 
+  - QCircularProgress, QList, QMenu
