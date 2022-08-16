@@ -1,6 +1,11 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
+## [1.1.0]
+- Support new Intellij Version 222.* thx stedop
+- Fix shield badges
+
+## [1.0.0]
 ### Added
 - Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - Add simple Quasar Live Templates
