@@ -6,8 +6,8 @@ to support you with predefined live templates and make your life easier.
 <!-- Plugin description end -->
 
 ![Build](https://github.com/knusperleicht/intellij-quasar/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/at.knusperleicht.quasar)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/at.knusperleicht.quasar)
+[![Version](https://img.shields.io/jetbrains/plugin/v/19084-quasar-tools)](https://plugins.jetbrains.com/plugin/19084-quasar-tools)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/19084-quasar-tools)](https://plugins.jetbrains.com/plugin/19084-quasar-tools)
 
 ``` html
 qlayout + [tab] => <q-layout view="hHr LpR lFf"></q-layout>
