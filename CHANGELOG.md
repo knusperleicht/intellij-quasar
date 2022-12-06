@@ -1,6 +1,9 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
+## [1.1.1]
+- Support new Intellij Version 223.*
+
 ## [1.1.0]
 - Support new Intellij Version 222.* thx stedop
 - Fix shield badges
