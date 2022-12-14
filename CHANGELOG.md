@@ -3,6 +3,8 @@
 ## [Unreleased]
 ## [1.1.1]
 - Support new Intellij Version 223.*
+- Migrate from java to kotlin
+- Update to the newest intellij plugin template
 
 ## [1.1.0]
 - Support new Intellij Version 222.* thx stedop
