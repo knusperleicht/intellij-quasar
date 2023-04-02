@@ -1,7 +1,7 @@
 # intellij-quasar
 <!-- Plugin description -->
 With the [Quasar Framework](https://quasar.dev/), you can effortlessly build high-performance & high-quality Vue.js 3 user interfaces.
-But sometimes, it is challenging to remember all the basic syntax of all the components. Therefore the IntelliJ quasar plugin is here
+But sometimes, it is challenging to remember all the basic syntax of all the components. Therefore, the IntelliJ quasar plugin is here
 to support you with predefined live templates and make your life easier.
 <!-- Plugin description end -->
 

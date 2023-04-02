@@ -2,21 +2,21 @@
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
     <name>Quasar Tools</name>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <change-notes>Initial release of the plugin.</change-notes>
 
     <vendor
             url="https://www.knusperleicht.at"
             email="christian.behon@knusperleicht.at">Knusperleicht Development
     </vendor>
 
-    <depends>com.intellij.modules.platform</depends>
-    <depends>com.intellij.modules.lang</depends>
-
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Quasar.xml"/>
-        <liveTemplateContext
-                contextId="Vue"
-                implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
+<!--        <liveTemplateContext implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>-->
     </extensions>
 
 </idea-plugin>
