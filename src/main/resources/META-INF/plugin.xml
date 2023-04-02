@@ -12,12 +12,9 @@
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.lang</depends>
 
-    <change-notes>Initial release of the plugin.</change-notes>
-
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Quasar.xml"/>
-        <liveTemplateContext
-                contextId="Vue"
-                implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
+        <liveTemplateContext implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
     </extensions>
+
 </idea-plugin>

@@ -1,6 +1,12 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
+## [1.2.0]
+- Change since/until build to 221-231.* (2022.1 - 2023.1.*)
+- Dependencies - upgrade org.jetbrains.kotlin.jvm to 1.8.10 
+- Dependencies - upgrade org.jetbrains.intellij to 1.13.2
+- Update GitHub workflows
+
 ## [1.1.1]
 - Support new Intellij Version 223.*
 - Migrate from java to kotlin
