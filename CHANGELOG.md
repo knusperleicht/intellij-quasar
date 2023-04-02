@@ -2,10 +2,12 @@
 
 ## [Unreleased]
 ## [1.2.0]
-- Change since/until build to 221-231.* (2022.1 - 2023.1.*)
 - Dependencies - upgrade org.jetbrains.kotlin.jvm to 1.8.10 
 - Dependencies - upgrade org.jetbrains.intellij to 1.13.2
 - Update GitHub workflows
+- Update quasar logo to v2
+- Change since/until build to 211-231.* (2021.1 - 2023.1.*)
+- Upgrade Gradle Wrapper to 8.0.2
 
 ## [1.1.1]
 - Support new Intellij Version 223.*
