@@ -1,7 +1,7 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
-## [1.2.0]
+## [1.2.1]
 - Dependencies - upgrade org.jetbrains.kotlin.jvm to 1.8.10 
 - Dependencies - upgrade org.jetbrains.intellij to 1.13.2
 - Update GitHub workflows

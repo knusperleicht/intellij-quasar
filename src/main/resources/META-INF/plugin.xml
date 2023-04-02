@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
     <name>Quasar Tools</name>
-    <version>1.1.1</version>
+    <version>1.2.1</version>
 
     <vendor
             url="https://www.knusperleicht.at"
@@ -14,7 +14,9 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Quasar.xml"/>
-        <liveTemplateContext implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
+        <liveTemplateContext
+                contextId="Vue"
+                implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
     </extensions>
 
 </idea-plugin>
