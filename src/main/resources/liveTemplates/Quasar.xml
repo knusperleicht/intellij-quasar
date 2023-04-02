@@ -1,13 +1,31 @@
 <templateSet group="Quasar">
-  <template name="qlayout" value="&lt;q-layout &#10;    view=&quot;$VIEW$&quot; &#10;    $CONTAINER$&#10;&gt;&#10;$END$&#10;&lt;/q-layout&gt;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="VIEW" expression="" defaultValue="&quot;hHr LpR lFf&quot;" alwaysStopAt="true" />
-    <variable name="CONTAINER" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+  <template name="qlayout" value="&lt;q-layout &#10;    view=&quot;$VIEW$&quot; &#10;    $CONTAINER$&#10;&gt;&#10;$END$&#10;&lt;/q-layout&gt;"
+            description="Defines how your layout components (header/footer/drawer) should be placed on screen; See docs examples"
+            toReformat="false"
+            toShortenFQNames="true">
+    <variable name="VIEW"
+              expression=""
+              defaultValue="&quot;hhh lpr fff&quot;"
+              alwaysStopAt="true" />
+    <variable name="CONTAINER"
+              expression=""
+              defaultValue="&quot;container&quot;"
+              alwaysStopAt="true" />
     <context>
-      <option name="VUE" value="true" />
+      <option name="VUE"
+              value="true"
+      />
     </context>
   </template>
-  <template name="qcardsection" value="&lt;q-card-section&gt;&#10;$LOREM$        &#10;&lt;/q-card-section&gt;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="LOREM" expression="" defaultValue="&quot;Lorem ipsum dolor sit amet&quot;" alwaysStopAt="true" />
+  <template name="qcardsection"
+            value="&lt;q-card-section&gt;&#10;$LOREM$&#10;&lt;/q-card-section&gt;"
+            description=""
+            toReformat="false"
+            toShortenFQNames="true">
+    <variable name="LOREM"
+              expression=""
+              defaultValue="&quot;Lorem ipsum dolor sit amet&quot;"
+              alwaysStopAt="true" />
     <context>
       <option name="VUE" value="true" />
     </context>
