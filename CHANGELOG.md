@@ -8,6 +8,7 @@
 - Update quasar logo to v2
 - Change since/until build to 211-231.* (2021.1 - 2023.1.*)
 - Upgrade Gradle Wrapper to 8.0.2
+- Change context for files
 
 ## [1.1.1]
 - Support new Intellij Version 223.*

@@ -5,6 +5,7 @@ But sometimes, it is challenging to remember all the basic syntax of all the com
 to support you with predefined live templates and make your life easier.
 <!-- Plugin description end -->
 
+[![Download](https://img.shields.io/badge/Get-from%20Jetbrains%20Marketplace-brightgreen)](https://plugins.jetbrains.com/plugin/19084-quasar-tools)
 ![Build](https://github.com/knusperleicht/intellij-quasar/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/19084-quasar-tools)](https://plugins.jetbrains.com/plugin/19084-quasar-tools)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/19084-quasar-tools)](https://plugins.jetbrains.com/plugin/19084-quasar-tools)
@@ -15,7 +16,7 @@ qbadge + [tab] => <q-badge color="orange" text-color="black" label="v1.0.0" />
 ```
 
 
-<img src="https://user-images.githubusercontent.com/2041897/166143563-df66397f-66f9-434d-9b7c-4e6ee2b8d281.gif" width="80%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/2041897/166143563-df66397f-66f9-434d-9b7c-4e6ee2b8d281.gif" width="80%" height="50%" alt="Intellij Quasar Tools"/>
 
 ## Installation
 
