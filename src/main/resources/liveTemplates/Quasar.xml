@@ -654,4 +654,12 @@
       <option name="VUE" value="true" />
     </context>
   </template>
+  <template name="qcalendarday" value="&lt;q-calendar-day v-model=&quot;$V_MODEL$&quot; animated class=&quot;shadow-2 rounded-borders&quot;&gt;&#10;    &lt;q-tab-panel name=&quot;$NAME$&quot;&gt;&#10;        &lt;div class=&quot;text-h6&quot;&gt;Mails&lt;/div&gt;&#10;        $LOREM$&#10;    &lt;/q-tab-panel&gt;&#10;&lt;/q-tab-panels&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="V_MODEL" expression="" defaultValue="&quot;panel&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;mails&quot;" alwaysStopAt="true" />
+    <variable name="LOREM" expression="" defaultValue="&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE" value="true" />
+    </context>
+  </template>
 </templateSet>
