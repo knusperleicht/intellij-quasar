@@ -1,6 +1,5 @@
-# GitHub Actions Workflow responsible for cleaning up the IntelliJ Platform Plugin Template repository from
-# the template-specific files and configurations. This workflow is supposed to be triggered automatically
-# when a new template-based repository has been created.
+# GitHub Actions Workflow responsible for cleaning up the IntelliJ Platform Plugin Template repository from the template-specific files and configurations.
+# This workflow is supposed to be triggered automatically when a new template-based repository has been created.
 
 name: Template Cleanup
 on:
@@ -20,7 +19,7 @@ jobs:
 
       # Check out current repository
       - name: Fetch Sources
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Cleanup project
       - name: Cleanup

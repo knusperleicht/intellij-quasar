@@ -2,11 +2,17 @@
 
 ## [Unreleased]
 
+## [1.2.5]
+- Upgrade Gradle Wrapper to 8.5
+-  Update GitHub Actions
+- Support new version 233
+
 ## [1.2.4]
 - Upgrade Gradle Wrapper to 8.2.1
 - GitHub Actions — rearrange the Build workflow
 - Update deps and extract versions into toml file
 - Support new version 232
+
 ## [1.2.1]
 - Dependencies - upgrade org.jetbrains.kotlin.jvm to 1.8.10 
 - Dependencies - upgrade org.jetbrains.intellij to 1.13.2
