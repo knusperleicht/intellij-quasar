@@ -16,7 +16,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Quasar.xml"/>
-        <liveTemplateContext implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
+        <liveTemplateContext contextId="VUE" implementation="at.knusperleicht.quasar.livetemplates.QuasarContext"/>
     </extensions>
 
 </idea-plugin>
