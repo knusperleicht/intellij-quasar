@@ -1,10 +1,14 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
-
+## [1.2.6]
+- Upgrade Gradle Wrapper to 8.6
+- Update GitHub Actions
+- Support new version 241
+- 
 ## [1.2.5]
 - Upgrade Gradle Wrapper to 8.5
--  Update GitHub Actions
+- Update GitHub Actions
 - Support new version 233
 
 ## [1.2.4]
