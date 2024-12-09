@@ -224,6 +224,8 @@
       <option name="VUE" value="true" />
     </context>
   </template>
+
+  <!-- Chip -->
   <template name="qchip" value="&lt;q-chip &#10;    v-model:selected=&quot;$V_MODEL$&quot; &#10;    color=&quot;$COLOR$&quot; &#10;    text-color=&quot;$TEXT_COLOR$&quot; &#10;    icon=&quot;$ICON$&quot;&#10;&gt;&#10;$TEXT$&#10;&lt;/q-chip&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="V_MODEL" expression="" defaultValue="&quot;selectedValue&quot;" alwaysStopAt="true" />
     <variable name="COLOR" expression="" defaultValue="&quot;primary&quot;" alwaysStopAt="true" />
@@ -234,6 +236,8 @@
       <option name="VUE" value="true" />
     </context>
   </template>
+
+  <!-- Color Picker -->
   <template name="qcolorpicker" value="&lt;q-color &#10;    v-model=&quot;$V_MODEL$&quot; &#10;    class=&quot;$STYLE$&quot; &#10;/&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="V_MODEL" expression="" defaultValue="&quot;hex&quot;" alwaysStopAt="true" />
     <variable name="STYLE" expression="" defaultValue="&quot;my-picker&quot;" alwaysStopAt="true" />
@@ -241,6 +245,8 @@
       <option name="VUE" value="true" />
     </context>
   </template>
+
+  <!-- Dialog -->
   <template name="qdialog" value="&lt;q-dialog v-model=&quot;$V_MODEL$&quot;&gt;&#10;    &lt;q-card&gt;&#10;        &lt;q-card-section&gt;&#10;          &lt;div class=&quot;text-h6&quot;&gt;$TITLE$&lt;/div&gt;&#10;        &lt;/q-card-section&gt;&#10;&#10;        &lt;q-card-section class=&quot;q-pt-none&quot;&gt;&#10;          $TEXT$&#10;        &lt;/q-card-section&gt;&#10;&#10;        &lt;q-card-actions align=&quot;right&quot;&gt;&#10;          &lt;q-btn $FLAT$ size=&quot;$SIZE$&quot; label=&quot;$LABEL$&quot; color=&quot;$COLOR$&quot; v-close-popup /&gt;&#10;        &lt;/q-card-actions&gt;&#10;    &lt;/q-card&gt;&#10;&lt;/q-dialog&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="V_MODEL" expression="" defaultValue="&quot;dialogModel&quot;" alwaysStopAt="true" />
     <variable name="TITLE" expression="" defaultValue="&quot;Alert&quot;" alwaysStopAt="true" />
@@ -253,6 +259,8 @@
       <option name="VUE" value="true" />
     </context>
   </template>
+
+  <!-- Editor -->
   <template name="qeditor" value="&lt;q-editor &#10;    v-model=&quot;$V_MODEL$&quot; &#10;    min-height=&quot;5rem&quot; &#10;/&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="V_MODEL" expression="" defaultValue="&quot;editor&quot;" alwaysStopAt="true" />
     <context>
