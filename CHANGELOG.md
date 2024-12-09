@@ -1,11 +1,22 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
+## [1.3.0]
+- Update `platformVersion` to `2023.3.7`
+- Change since/until build to `233-243.*` (2023.3-2024.2.*)
+- Cleanup registering the `runIdeForUiTests` task
+- Dependencies - upgrade `org.jetbrains.intellij.platform` to `2.0.1`
+- Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `1.9.25`
+- Dependencies - upgrade `org.jetbrains.kotlinx.kover` to `0.8.3`
+- Dependencies - upgrade `org.jetbrains.qodana` to `2024.1.9`
+- Migrate to [IntelliJ Platform Gradle Plugin 2.0](https://blog.jetbrains.com/platform/2024/07/intellij-platform-gradle-plugin-2-0/).
+- Update GitHub actions
+
 ## [1.2.6]
 - Upgrade Gradle Wrapper to 8.6
 - Update GitHub Actions
 - Support new version 241
-- 
+
 ## [1.2.5]
 - Upgrade Gradle Wrapper to 8.5
 - Update GitHub Actions
