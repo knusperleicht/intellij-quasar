@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>at.knusperleicht.quasar</id>
     <name>Quasar Tools</name>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.lang</depends>

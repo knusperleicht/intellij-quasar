@@ -1,6 +1,11 @@
 # Intellij Quasar Changelog
 
 ## [Unreleased]
+## [1.4.0]
+- Update `platformVersion` to `2024.2.5`
+- Change since/until build to `242-252.*`
+- Update dependencies
+
 ## [1.3.0]
 - Update `platformVersion` to `2023.3.7`
 - Change since/until build to `233-243.*` (2023.3-2024.2.*)
