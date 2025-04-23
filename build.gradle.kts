@@ -38,8 +38,6 @@ dependencies {
     intellijPlatform {
         create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"))
 
-        instrumentationTools()
-
         // Plugin Dependencies. Uses `platformBundledPlugins` property from the gradle.properties file for bundled IntelliJ Platform plugins.
         bundledPlugins(providers.gradleProperty("platformBundledPlugins").map { it.split(',') })
 
@@ -104,6 +102,7 @@ intellijPlatform {
     }
 
     pluginVerification {
+        freeArgs = listOf("-mute","TemplateWordInPluginName")
         ides {
             recommended()
         }
